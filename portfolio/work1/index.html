@@ -2,7 +2,7 @@
 <html lang="en-us">
 <head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>Name of the work 1</title>
+<title>personalized-knowledge-graphs</title>
 <meta name="description" content="This is my first website. I built it to show my portfolio and practice web development.">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="all,follow">
@@ -131,35 +131,36 @@ ga('send', 'pageview');
   <div class="row">
     <div class="col-lg-8">
       <div class="content-column-content">
-         <h1>Name of the work 1</h1>
-         <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life. One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.
-</p>
+         <h1>personalized-knowledge-graphs</h1>
+         
 
-<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+<p>A personal assistant that helps with projects</p>
 
-<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+<p>This project started as an idea last summer, I started researching and experimenting around. I have decided to work on it during the last term of my Master of Engineering program as my capstone project.</p>
 
-<ol>
-<li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
-<li>Aliquam tincidunt mauris eu risus.</li>
-</ol>
+<p>The biggest inspiration for me was Jarvis from Iron Man, I always wanted to have a Jarvis that can help me with building projects, keep track of the steps, and help me find information.</p>
 
-<blockquote>
-<p>The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn&rsquo;t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.</p>
-</blockquote>
 
-<h2 id="header-level-2">Header Level 2</h2>
+<figure >
+    
+        <img src="/img/portfolio/personalized-knowledge-graphs/schema.png" width="60%" />
+    
+    
+</figure>
 
-<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
 
-<p>The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn&rsquo;t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.</p>
+<h2 id="main-parts">Main parts</h2>
 
 <ul>
-<li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
-<li>Aliquam tincidunt mauris eu risus.</li>
+<li><strong>Discovery Client:</strong> This client communicates with the discovery service provided by IBM Watson. It gets a JSON response which contains text, keywords, concepts, etc. Those are sent into the DiscoveryDocument class for parsing.</li>
+<li><strong>OpenIE Client:</strong> Stanford CoreNLP provides Open Information Extraction. Basically this takes sentences and turns them into subject &ndash; verb &ndash;&gt; object triplets.</li>
+<li><strong>Coref Client:</strong> Stanford CoreNLP also provides Coreference Resolution. This is useful to detect multiple mentions of the same subject. In our case, I&rsquo;m also using it as a story telling part, since it can separate the same sentence on multiple points and give the depending verb that links the two sentences. This will be useful to create more triplets and also to check the previous triplets.</li>
+<li><strong>Database:</strong> Neo4j is going to be used to store the information for the projects. This is a very tricky part of the project and will take time to finish.</li>
+<li><strong>Actions on Google:</strong> (Out of current scope) This will be the last step of the project. By following the procedure on the Actions Console I will submit my chatbot to the Google Assistant team for review and hopefully it will be available for public use.</li>
 </ul>
 
-<p>When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane. Pityful a rethoric question ran over her cheek, then</p>
+<!-- [1]: /img/portfolio/personalized-knowledge-graphs/schema.png -->
+
          <div id="disqus_thread"></div>
 <script>
     var disqus_config = function () {

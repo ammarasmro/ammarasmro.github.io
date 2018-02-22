@@ -6,19 +6,31 @@
     <description>Recent content in Portfolios on Ammar Asmro</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 05 Nov 2016 19:41:01 +0530</lastBuildDate>
+    <lastBuildDate>Sat, 05 Nov 2016 18:25:22 +0530</lastBuildDate>
     
 	<atom:link href="https://ammarasmro.github.io/portfolio/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Name of the work 2</title>
+      <title>personalized-knowledge-graphs</title>
+      <link>https://ammarasmro.github.io/portfolio/work1/</link>
+      <pubDate>Sat, 05 Nov 2016 18:25:22 +0530</pubDate>
+      
+      <guid>https://ammarasmro.github.io/portfolio/work1/</guid>
+      <description>A personal assistant that helps with projects
+This project started as an idea last summer, I started researching and experimenting around. I have decided to work on it during the last term of my Master of Engineering program as my capstone project.
+The biggest inspiration for me was Jarvis from Iron Man, I always wanted to have a Jarvis that can help me with building projects, keep track of the steps, and help me find information.</description>
+    </item>
+    
+    <item>
+      <title>Party-Animals-Hackathon</title>
       <link>https://ammarasmro.github.io/portfolio/work2/</link>
       <pubDate>Sat, 05 Nov 2016 19:41:01 +0530</pubDate>
       
       <guid>https://ammarasmro.github.io/portfolio/work2/</guid>
-      <description>&lt;p&gt;When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane.
-&lt;/p&gt;</description>
+      <description>A location based social media / chat application
+This is a chat application that demonstrates that location can be further integrated into our everyday applications.
+Many chat apps exist but we still need to create our own groups and keep sending invites. Many people who send requests to join groups aren&amp;rsquo;t even near the event which can affect the quality of the conversation. This solution uses the technologies available to limit access to conversations to people who are close to the event.</description>
     </item>
     
     <item>
@@ -108,16 +120,6 @@
       
       <guid>https://ammarasmro.github.io/portfolio/work11/</guid>
       <description>&lt;p&gt;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
-&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Name of the work 1</title>
-      <link>https://ammarasmro.github.io/portfolio/work1/</link>
-      <pubDate>Sat, 05 Nov 2016 18:25:22 +0530</pubDate>
-      
-      <guid>https://ammarasmro.github.io/portfolio/work1/</guid>
-      <description>&lt;p&gt;Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life. One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.
 &lt;/p&gt;</description>
     </item>
     
