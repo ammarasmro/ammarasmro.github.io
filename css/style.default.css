@@ -315,100 +315,6 @@ fieldset[disabled] .btn-white.active {
   border-color: #feee7d;
   color: #feee7d;
 }
-
-/*
-
-=====================
-NEW SIDEBAR
-=====================
-
-*/
-
-#sidebar {
-  padding-top: 40px;
-}
-
-@media only screen and (max-height: 500px) {
-    .sidebar-profile-picture {
-        width: 0px;
-        height: 0px;
-        visibility: collapse;
-        padding: 0px;
-    }
-    .sidebar-p {
-      height: 0px;
-      visibility: collapse;
-    }
-
-    .copyright {
-      width: 0px;
-      height: 0px;
-      visibility: collapse;
-    }
-
-    #sidebar-social {
-      position: absolute;
-      bottom: 0;
-      margin-right: 0.7em;
-      margin-bottom: 50px;
-    }
-}
-
-
-
-@media only screen and (max-height: 746px) {
-    .sidebar-profile-picture {
-        width: 100%;
-    }
-    .sidebar-p {
-      height: 0px;
-      visibility: collapse;
-    }
-
-    .copyright {
-      width: 0px;
-      height: 0px;
-      visibility: collapse;
-    }
-
-    #sidebar-social {
-      position: absolute;
-      bottom: 0;
-      margin-right: 0.7em;
-      margin-bottom: 50px;
-    }
-}
-
-@media only screen and (max-height: 615px) {
-    .sidebar-profile-picture {
-        width: 80%;
-    }
-  }
-
-
-
-/* @media only screen and (max-height: 746px) {
-    .sidebar-profile-picture {
-        width: 50%%;
-        height: 15%;
-    }
-    .sidebar-p {
-      height: 0px;
-      visibility: collapse;
-    } */
-}
-
-/* @media only screen and (min-width: 700px) {
-    .sidebar-profile-picture {
-        width: 80%;
-    }
-}
-*/
-
-
-
-
-
 /*
 
 =====================
@@ -425,11 +331,7 @@ SIDEBAR + RIGHT COLUMN
     width: inherit;
     z-index: 0;
     padding: 0 1em 0 0.2em;
-    height: 100%;
 }
-
-
-
 @media screen and (min-width: 992px) {
   .sidebar-content {
     padding-left: 20px;
