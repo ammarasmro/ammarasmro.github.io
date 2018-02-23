@@ -36,15 +36,20 @@ table {
 }
 
 
+@media only screen and (max-height: 676px) {
+    .sidebar-p {
+        font-size: 10px!important;
+    }
+  }
 
 @media only screen and (max-height: 746px) {
     .sidebar-profile-picture {
         width: 100%;
     }
-    .sidebar-p {
+    /* .sidebar-p {
       height: 0px;
       visibility: collapse;
-    }
+    } */
 
     .copyright {
       width: 0px;
@@ -60,8 +65,10 @@ table {
     }
 }
 
+
+
 @media only screen and (max-height: 615px) {
     .sidebar-profile-picture {
-        width: 80%;
+        width: 50%;
     }
   }
