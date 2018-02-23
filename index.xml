@@ -34,53 +34,49 @@ Many chat apps exist but we still need to create our own groups and keep sending
     </item>
     
     <item>
-      <title>Name of the work 3</title>
+      <title>connect4-ottotoot-mvc</title>
       <link>https://ammarasmro.github.io/portfolio/work3/</link>
       <pubDate>Sat, 05 Nov 2016 19:44:32 +0530</pubDate>
       
       <guid>https://ammarasmro.github.io/portfolio/work3/</guid>
-      <description>&lt;p&gt;Fifth abundantly made Give sixth hath. Cattle creature i be don&amp;rsquo;t them.
+      <description>&lt;p&gt;MVC implementation of Connect 4 and the OTTO and TOOT using JavaFX
 &lt;/p&gt;</description>
     </item>
     
     <item>
-      <title>Item without image</title>
+      <title>Deep-Education</title>
       <link>https://ammarasmro.github.io/portfolio/work4/</link>
       <pubDate>Sat, 05 Nov 2016 19:50:47 +0530</pubDate>
       
       <guid>https://ammarasmro.github.io/portfolio/work4/</guid>
-      <description>&lt;p&gt;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
-&lt;/p&gt;</description>
+      <description>The advancements in the deep learning field are happening very quickly, newer and faster models are coming out everyday. Many companies are adopting every new technology that comes out but the adoption of those new technologies can be a bit slower in the educational system. The application and benefits of applying deep learning models and techniques are explored in this project. The significance of this project is in applying new models on domain specific data using a raw text corpus.</description>
     </item>
     
     <item>
-      <title>Name of the work 5</title>
+      <title>Smart-Course-Browser</title>
       <link>https://ammarasmro.github.io/portfolio/work5/</link>
       <pubDate>Sat, 05 Nov 2016 19:53:42 +0530</pubDate>
       
       <guid>https://ammarasmro.github.io/portfolio/work5/</guid>
-      <description>&lt;p&gt;Fifth abundantly made Give sixth hath. Cattle creature i be don&amp;rsquo;t them.
-&lt;/p&gt;</description>
+      <description>Abstract—Choosing a course at the university is a challenge to students that is overlooked by the system. The student to advisor ratio is big and the student needs to spend months researching a course without finding sufficient data. With so few resources, the student is left with the few lines of description from the course website and the word of mouth, which have such a big risk. Education shouldn’t be relying on risky actions.</description>
     </item>
     
     <item>
-      <title>Name of the work 6</title>
+      <title>Real Estate Prediction</title>
       <link>https://ammarasmro.github.io/portfolio/work6/</link>
       <pubDate>Sat, 05 Nov 2016 19:56:17 +0530</pubDate>
       
       <guid>https://ammarasmro.github.io/portfolio/work6/</guid>
-      <description>&lt;p&gt;Fifth abundantly made Give sixth hath. Cattle creature i be don&amp;rsquo;t them.
-&lt;/p&gt;</description>
+      <description>Abstract—The real estate business is a difficult market to understand, but can return very high profits with the right techniques. People spend years in the market to gain the necessary experience to be able to evaluate a property and assess its price based on several factors, those factors have to be extracted from big datasets. This report aims to show an approach to automate that process, the algorithm should extract the important factors and apply them to new data to predict the prices of the new properties without human assistance.</description>
     </item>
     
     <item>
-      <title>Name of the work 7</title>
+      <title>Microcontrolled Takeout Robot</title>
       <link>https://ammarasmro.github.io/portfolio/work7/</link>
       <pubDate>Sat, 05 Nov 2016 19:57:40 +0530</pubDate>
       
       <guid>https://ammarasmro.github.io/portfolio/work7/</guid>
-      <description>&lt;p&gt;Fifth abundantly made Give sixth hath. Cattle creature i be don&amp;rsquo;t them.
-&lt;/p&gt;</description>
+      <description>A pneumatic robotic system that has two movements about two axes, it is used as a take-out robot to carry any object (like a bottle or a jar or anything solid) from one side to the other. Several analysis were carried out to analyze the movements of the robot. The detection of the object can is done by a photo sensor. A strain gauge is installed in the system to detect the weight of the object.</description>
     </item>
     
     <item>

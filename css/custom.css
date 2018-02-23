@@ -1,5 +1,10 @@
 /* your styles go here */
 
+table {
+    border-spacing: 10px!important;
+    border-collapse: separate!important;
+}
+
 .sidebar-content {
   height: 100%;
 }

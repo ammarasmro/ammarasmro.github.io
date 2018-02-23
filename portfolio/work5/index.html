@@ -2,11 +2,14 @@
 <html lang="en-us">
 <head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>Name of the work 5</title>
+<title>Smart-Course-Browser</title>
 <meta name="description" content="This is my first website. I built it to show my portfolio and practice web development.">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="all,follow">
 <meta name="googlebot" content="index,follow,snippet,archive">
+
+<link href="https://ammarasmro.github.io/css/custom.css" rel="stylesheet">
+
 <link rel="stylesheet" href="https://ammarasmro.github.io/css/bootstrap.min.css">
 <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:400,300,700,400italic">
 <link rel="stylesheet" href="https://ammarasmro.github.io/css/font-awesome.min.css">
@@ -25,8 +28,6 @@
     <![endif]-->
   
 
-
-<link href="https://ammarasmro.github.io/css/custom.css" rel="stylesheet">
 <link rel="shortcut icon" href="https://ammarasmro.github.io/img/favicon.png">
 
 
@@ -131,35 +132,198 @@ ga('send', 'pageview');
   <div class="row">
     <div class="col-lg-8">
       <div class="content-column-content">
-         <h1>Name of the work 5</h1>
-         <p>Fifth abundantly made Give sixth hath. Cattle creature i be don&rsquo;t them.
-</p>
+         <h1>Smart-Course-Browser</h1>
+         
 
-<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+<p>Abstract—Choosing a course at the university is a challenge to students that is overlooked by the system. The student to advisor ratio is big and the student needs to spend months researching a course without finding sufficient data. With so few resources, the student is left with the few lines of description from the course website and the word of mouth, which have such a big risk. Education shouldn’t be relying on risky actions. In this project, I address this issue and suggest a platform that can help in fixing it. I propose a recommender system that uses the new techniques that are used in different fields and applies them to education. The final product is a complete platform with a search engine, recommender algorithms, and a decision-making tool. The value in the methods presented here is that, unlike other educational recommendation systems, it tries to help the student decide with a step-by-step approach rather than doing all the prediction automatically.</p>
 
-<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+<h4 id="data-collection">Data Collection</h4>
 
-<ol>
-<li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
-<li>Aliquam tincidunt mauris eu risus.</li>
-</ol>
+<p>The data used for this project was obtained from the Software Product Management Specialization Massive Open Online Course (MOOC) that is hosted on Coursera. Data include personal data, such as grade books, ratings, performance, and assessment. This tabular data comes in Comma Delimited Value (CSV) files. The data also included notes and transcripts from the lectures. User names were anonymized by Coursera to protect the privacy of the students. So each user has a specific encrypted user ID. Those user ID’s are not consistent across the sections, for example, students’ performance cannot be linked to their feedback. Five courses are required, plus a capstone project, to finish the specialization. Table I shows the names of the courses that were used for this project.</p>
 
-<blockquote>
-<p>The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn&rsquo;t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.</p>
-</blockquote>
+<table>
+<thead>
+<tr>
+<th>Courses</th>
+</tr>
+</thead>
 
-<h2 id="header-level-2">Header Level 2</h2>
+<tbody>
+<tr>
+<td>Introduction to Software Product Management</td>
+</tr>
 
-<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
+<tr>
+<td>Software Processes and Agile Practices</td>
+</tr>
 
-<p>The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn&rsquo;t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.</p>
+<tr>
+<td>Client Needs and Software Requirements</td>
+</tr>
+
+<tr>
+<td>Agile Planning for Software Products</td>
+</tr>
+
+<tr>
+<td>Reviews &amp; Metrics for Software Improvements</td>
+</tr>
+</tbody>
+</table>
+
+<h4 id="main-parts">Main parts</h4>
 
 <ul>
-<li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
-<li>Aliquam tincidunt mauris eu risus.</li>
+<li><strong>Apache Solr</strong></li>
+<li><strong>Word2vec</strong></li>
+<li><strong>Recommender Systems</strong>
+
+<ul>
+<li>Item-Similarity</li>
+<li>Matrix Factorization</li>
+</ul></li>
+<li><strong>IBM Watson</strong>
+
+<ul>
+<li>TradeOff Analytics API</li>
+</ul></li>
 </ul>
 
-<p>When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane. Pityful a rethoric question ran over her cheek, then</p>
+<h4 id="dependencies">Dependencies</h4>
+
+<ul>
+<li><strong><em>SQLAlchemy</em></strong></li>
+<li><strong><em>Pandas</em></strong></li>
+<li><strong><em>Scikit-Learn</em></strong></li>
+<li><strong><em>Gensim</em></strong></li>
+<li><strong><em>NLTK</em></strong></li>
+<li><strong><em>SparseSVD</em></strong></li>
+</ul>
+
+<h4 id="the-system">The system</h4>
+
+
+<figure >
+    
+        <img src="/img/portfolio/smart-course-browser/system.jpg" width="60%" />
+    
+    
+</figure>
+
+
+<h4 id="results">Results</h4>
+
+<h5 id="sample-results-of-the-word2vec-model">Sample results of the Word2Vec model</h5>
+
+<table>
+<thead>
+<tr>
+<th>agile</th>
+<th>manager</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>methodologies</td>
+<td>owner</td>
+</tr>
+
+<tr>
+<td>principles</td>
+<td>leader</td>
+</tr>
+
+<tr>
+<td>Agile</td>
+<td>delivering</td>
+</tr>
+
+<tr>
+<td>methods</td>
+<td>decision</td>
+</tr>
+
+<tr>
+<td>Lean</td>
+<td>seagull</td>
+</tr>
+
+<tr>
+<td>practices</td>
+<td>vision</td>
+</tr>
+
+<tr>
+<td>methodology</td>
+<td>evolves</td>
+</tr>
+
+<tr>
+<td>Scrum</td>
+<td>evolving</td>
+</tr>
+
+<tr>
+<td>lean</td>
+<td>managers</td>
+</tr>
+
+<tr>
+<td>linear</td>
+<td>responsibility</td>
+</tr>
+</tbody>
+</table>
+
+<p><em>Word embeddings</em>
+
+<figure >
+    
+        <img src="/img/portfolio/smart-course-browser/nesave.png" width="60%" />
+    
+    
+</figure>
+
+
+<figure >
+    
+        <img src="/img/portfolio/smart-course-browser/nepartsave.png" width="60%" />
+    
+    
+</figure>
+</p>
+
+<h5 id="tradeoff-analytics">TradeOff Analytics</h5>
+
+<p>
+<figure >
+    
+        <img src="/img/portfolio/smart-course-browser/TA1.png" width="60%" />
+    
+    
+</figure>
+
+
+<figure >
+    
+        <img src="/img/portfolio/smart-course-browser/TA2.png" width="60%" />
+    
+    
+</figure>
+</p>
+
+<h4 id="our-ui">Our UI</h4>
+
+
+<figure >
+    
+        <img src="/img/portfolio/smart-course-browser/ui.png" width="60%" />
+    
+    
+</figure>
+
+
          <div id="disqus_thread"></div>
 <script>
     var disqus_config = function () {
