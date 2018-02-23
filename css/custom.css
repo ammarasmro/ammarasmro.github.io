@@ -9,6 +9,19 @@ table {
   height: 100%;
 }
 
+@media only screen and (max-height: 340px) {
+  #sidebar-social {
+    visibility: collapse;
+  }
+}
+
+@media only screen and (max-height: 580px) {
+  p.social a {
+    margin-right: 5px!important;
+  }
+}
+
+
 @media only screen and (max-height: 500px) {
     .sidebar-profile-picture {
         width: 0px;
@@ -30,7 +43,7 @@ table {
     #sidebar-social {
       position: absolute;
       bottom: 0;
-      margin-right: 0.7em;
+      /* margin-right: 0.7em; */
       margin-bottom: 50px;
     }
 }
