@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Portfolios on Ammar Asmro</title>
-    <link>https://ammarasmro.github.io/portfolio/</link>
+    <link>https://ammarasmaro.com/portfolio/</link>
     <description>Recent content in Portfolios on Ammar Asmro</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 05 Nov 2016 18:25:22 +0530</lastBuildDate>
     
-	<atom:link href="https://ammarasmro.github.io/portfolio/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ammarasmaro.com/portfolio/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Personalized Knowledge Graphs</title>
-      <link>https://ammarasmro.github.io/portfolio/work1/</link>
+      <link>https://ammarasmaro.com/portfolio/work1/</link>
       <pubDate>Sat, 05 Nov 2016 18:25:22 +0530</pubDate>
       
-      <guid>https://ammarasmro.github.io/portfolio/work1/</guid>
+      <guid>https://ammarasmaro.com/portfolio/work1/</guid>
       <description>A personal assistant that helps with projects
 This project started as an idea last summer, I started researching and experimenting around. I have decided to work on it during the last term of my Master of Engineering program as my capstone project.
 The biggest inspiration for me was Jarvis from Iron Man, I always wanted to have a Jarvis that can help me with building projects, keep track of the steps, and help me find information.</description>
@@ -24,10 +24,10 @@ The biggest inspiration for me was Jarvis from Iron Man, I always wanted to have
     
     <item>
       <title>Party Gathering</title>
-      <link>https://ammarasmro.github.io/portfolio/work2/</link>
+      <link>https://ammarasmaro.com/portfolio/work2/</link>
       <pubDate>Sat, 05 Nov 2016 19:41:01 +0530</pubDate>
       
-      <guid>https://ammarasmro.github.io/portfolio/work2/</guid>
+      <guid>https://ammarasmaro.com/portfolio/work2/</guid>
       <description>A location based social media / chat application
 This is a chat application that demonstrates that location can be further integrated into our everyday applications.
 Many chat apps exist but we still need to create our own groups and keep sending invites. Many people who send requests to join groups aren&amp;rsquo;t even near the event which can affect the quality of the conversation. This solution uses the technologies available to limit access to conversations to people who are close to the event.</description>
@@ -35,47 +35,47 @@ Many chat apps exist but we still need to create our own groups and keep sending
     
     <item>
       <title>Connect4 &amp; TOOT-OTTO games</title>
-      <link>https://ammarasmro.github.io/portfolio/work3/</link>
+      <link>https://ammarasmaro.com/portfolio/work3/</link>
       <pubDate>Sat, 05 Nov 2016 19:44:32 +0530</pubDate>
       
-      <guid>https://ammarasmro.github.io/portfolio/work3/</guid>
+      <guid>https://ammarasmaro.com/portfolio/work3/</guid>
       <description>&lt;p&gt;MVC implementation of Connect 4 and the OTTO and TOOT using JavaFX
 &lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Deep Education</title>
-      <link>https://ammarasmro.github.io/portfolio/work4/</link>
+      <link>https://ammarasmaro.com/portfolio/work4/</link>
       <pubDate>Sat, 05 Nov 2016 19:50:47 +0530</pubDate>
       
-      <guid>https://ammarasmro.github.io/portfolio/work4/</guid>
+      <guid>https://ammarasmaro.com/portfolio/work4/</guid>
       <description>The advancements in the deep learning field are happening very quickly, newer and faster models are coming out everyday. Many companies are adopting every new technology that comes out but the adoption of those new technologies can be a bit slower in the educational system. The application and benefits of applying deep learning models and techniques are explored in this project. The significance of this project is in applying new models on domain specific data using a raw text corpus.</description>
     </item>
     
     <item>
       <title>Smart Course Browser</title>
-      <link>https://ammarasmro.github.io/portfolio/work5/</link>
+      <link>https://ammarasmaro.com/portfolio/work5/</link>
       <pubDate>Sat, 05 Nov 2016 19:53:42 +0530</pubDate>
       
-      <guid>https://ammarasmro.github.io/portfolio/work5/</guid>
+      <guid>https://ammarasmaro.com/portfolio/work5/</guid>
       <description>Abstract—Choosing a course at the university is a challenge to students that is overlooked by the system. The student to advisor ratio is big and the student needs to spend months researching a course without finding sufficient data. With so few resources, the student is left with the few lines of description from the course website and the word of mouth, which have such a big risk. Education shouldn’t be relying on risky actions.</description>
     </item>
     
     <item>
       <title>Real Estate Prediction</title>
-      <link>https://ammarasmro.github.io/portfolio/work6/</link>
+      <link>https://ammarasmaro.com/portfolio/work6/</link>
       <pubDate>Sat, 05 Nov 2016 19:56:17 +0530</pubDate>
       
-      <guid>https://ammarasmro.github.io/portfolio/work6/</guid>
+      <guid>https://ammarasmaro.com/portfolio/work6/</guid>
       <description>Abstract—The real estate business is a difficult market to understand, but can return very high profits with the right techniques. People spend years in the market to gain the necessary experience to be able to evaluate a property and assess its price based on several factors, those factors have to be extracted from big datasets. This report aims to show an approach to automate that process, the algorithm should extract the important factors and apply them to new data to predict the prices of the new properties without human assistance.</description>
     </item>
     
     <item>
       <title>Microcontrolled Takeout Robot</title>
-      <link>https://ammarasmro.github.io/portfolio/work7/</link>
+      <link>https://ammarasmaro.com/portfolio/work7/</link>
       <pubDate>Sat, 05 Nov 2016 19:57:40 +0530</pubDate>
       
-      <guid>https://ammarasmro.github.io/portfolio/work7/</guid>
+      <guid>https://ammarasmaro.com/portfolio/work7/</guid>
       <description>A pneumatic robotic system that has two movements about two axes, it is used as a take-out robot to carry any object (like a bottle or a jar or anything solid) from one side to the other. Several analysis were carried out to analyze the movements of the robot. The detection of the object can is done by a photo sensor. A strain gauge is installed in the system to detect the weight of the object.</description>
     </item>
     

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>K Means on Ammar Asmro</title>
-    <link>https://ammarasmro.github.io/tags/k-means/</link>
+    <link>https://ammarasmaro.com/tags/k-means/</link>
     <description>Recent content in K Means on Ammar Asmro</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 05 Nov 2016 19:56:17 +0530</lastBuildDate>
     
-	<atom:link href="https://ammarasmro.github.io/tags/k-means/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ammarasmaro.com/tags/k-means/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Real Estate Prediction</title>
-      <link>https://ammarasmro.github.io/portfolio/work6/</link>
+      <link>https://ammarasmaro.com/portfolio/work6/</link>
       <pubDate>Sat, 05 Nov 2016 19:56:17 +0530</pubDate>
       
-      <guid>https://ammarasmro.github.io/portfolio/work6/</guid>
+      <guid>https://ammarasmaro.com/portfolio/work6/</guid>
       <description>Abstract—The real estate business is a difficult market to understand, but can return very high profits with the right techniques. People spend years in the market to gain the necessary experience to be able to evaluate a property and assess its price based on several factors, those factors have to be extracted from big datasets. This report aims to show an approach to automate that process, the algorithm should extract the important factors and apply them to new data to predict the prices of the new properties without human assistance.</description>
     </item>
     

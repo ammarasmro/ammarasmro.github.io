@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Nlp on Ammar Asmro</title>
-    <link>https://ammarasmro.github.io/tags/nlp/</link>
+    <link>https://ammarasmaro.com/tags/nlp/</link>
     <description>Recent content in Nlp on Ammar Asmro</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 05 Nov 2016 19:50:47 +0530</lastBuildDate>
     
-	<atom:link href="https://ammarasmro.github.io/tags/nlp/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ammarasmaro.com/tags/nlp/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Deep Education</title>
-      <link>https://ammarasmro.github.io/portfolio/work4/</link>
+      <link>https://ammarasmaro.com/portfolio/work4/</link>
       <pubDate>Sat, 05 Nov 2016 19:50:47 +0530</pubDate>
       
-      <guid>https://ammarasmro.github.io/portfolio/work4/</guid>
+      <guid>https://ammarasmaro.com/portfolio/work4/</guid>
       <description>The advancements in the deep learning field are happening very quickly, newer and faster models are coming out everyday. Many companies are adopting every new technology that comes out but the adoption of those new technologies can be a bit slower in the educational system. The application and benefits of applying deep learning models and techniques are explored in this project. The significance of this project is in applying new models on domain specific data using a raw text corpus.</description>
     </item>
     
