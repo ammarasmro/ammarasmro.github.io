@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>About on Ammar Asmro</title>
+    <link>https://ammarasmaro.com/categories/about/</link>
+    <description>Recent content in About on Ammar Asmro</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 02 Oct 2016 22:55:05 -0400</lastBuildDate>
+    
+	<atom:link href="https://ammarasmaro.com/categories/about/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About</title>
+      <link>https://ammarasmaro.com/about/</link>
+      <pubDate>Sun, 02 Oct 2016 22:55:05 -0400</pubDate>
+      
+      <guid>https://ammarasmaro.com/about/</guid>
+      <description>I just finished my master of engineering program, my focus was on Software engineering &amp;amp; Intelligent Systems. I&amp;rsquo;m interested in building solutions, explore new software engineering techniques, and solve problems. A big part of my program was related to machine learning and artificial intelligence, and I built few projects using them too.
+  I&amp;rsquo;m looking for a place that will allow me to practice and develop the skills that I have acquired so far.</description>
+    </item>
+    
+  </channel>
+</rss>

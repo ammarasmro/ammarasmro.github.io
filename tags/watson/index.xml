@@ -6,17 +6,17 @@
     <description>Recent content in Watson on Ammar Asmro</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 05 Nov 2016 18:25:22 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 21 May 2018 21:13:38 -0600</lastBuildDate>
     
 	<atom:link href="https://ammarasmaro.com/tags/watson/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Personalized Knowledge Graphs</title>
-      <link>https://ammarasmaro.com/portfolio/work1/</link>
-      <pubDate>Sat, 05 Nov 2016 18:25:22 +0530</pubDate>
+      <link>https://ammarasmaro.com/portfolio/personalized-knowledge-graphs/</link>
+      <pubDate>Mon, 21 May 2018 21:13:38 -0600</pubDate>
       
-      <guid>https://ammarasmaro.com/portfolio/work1/</guid>
+      <guid>https://ammarasmaro.com/portfolio/personalized-knowledge-graphs/</guid>
       <description>A personal assistant that helps with projects
 This project started as an idea last summer, I started researching and experimenting around. I have decided to work on it during the last term of my Master of Engineering program as my capstone project.
 The biggest inspiration for me was Jarvis from Iron Man, I always wanted to have a Jarvis that can help me with building projects, keep track of the steps, and help me find information.</description>
@@ -24,10 +24,10 @@ The biggest inspiration for me was Jarvis from Iron Man, I always wanted to have
     
     <item>
       <title>Smart Course Browser</title>
-      <link>https://ammarasmaro.com/portfolio/work5/</link>
-      <pubDate>Sat, 05 Nov 2016 19:53:42 +0530</pubDate>
+      <link>https://ammarasmaro.com/portfolio/smart-course-browser/</link>
+      <pubDate>Mon, 21 May 2018 21:01:27 -0600</pubDate>
       
-      <guid>https://ammarasmaro.com/portfolio/work5/</guid>
+      <guid>https://ammarasmaro.com/portfolio/smart-course-browser/</guid>
       <description>Abstract—Choosing a course at the university is a challenge to students that is overlooked by the system. The student to advisor ratio is big and the student needs to spend months researching a course without finding sufficient data. With so few resources, the student is left with the few lines of description from the course website and the word of mouth, which have such a big risk. Education shouldn’t be relying on risky actions.</description>
     </item>
     

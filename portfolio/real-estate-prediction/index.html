@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<meta name="description" content="Simple minimalist theme">
+<meta name="keywords" content="minimalist,blog,goa,hugo,developer">
+
+<base href="https://ammarasmaro.com/">
+
+<title>Ammar Asmro</title>
+
+<meta name="generator" content="Hugo 0.38.1" />
+
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400|Roboto+Slab:400,700|Roboto:300,300i,400,400i,500,500i,700,700i">
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://ammarasmaro.com/css/main.css">
+
+
+
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+
+<link rel='icon' type='image/x-icon' href='/favicon-adn.ico' />
+
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="theme-color" content="#ffffff">
+
+</head>
+<body lang="en-us">
+<div class="container">
+
+
+<header class="row text-left title">
+  <h1 class="title">Real Estate Prediction</h1>
+</header>
+<section id="category-pane" class="row meta">
+  
+  <div class="col-md-12">
+    <h6 class="text-left meta">
+      PUBLISHED ON MAY 21, 2018
+      
+      
+      
+      —
+      
+      
+      <a class="meta" href="/categories/machine-learning">MACHINE LEARNING</a>
+      
+      
+      
+    </h6>
+  </div>
+  
+</section>
+<section id="content-pane" class="row">
+  <div class="col-md-12 text-justify content">
+    
+
+<p>Abstract—The real estate business is a difficult market to understand, but can return very high profits with the right techniques. People spend years in the market to gain the necessary experience to be able to evaluate a property and assess its price based on several factors, those factors have to be extracted from big datasets. This report aims to show an approach to automate that process, the algorithm should extract the important factors and apply them to new data to predict the prices of the new properties without human assistance. This project was divided into several parts, first the data are collected from the City of Edmonton, then these data are scanned, grouped, and prepared for classification. The next step was to use unsupervised learning clustering techniques to divide the data to classes according to the patterns or groups existing in the data. The last step was to apply supervised learning by using decision trees and ensemble bagged trees to predict the classes of the new data. By the end of this project, the results are interpreted and the workflow of how each technique was used to perform prediction through classification is explained.</p>
+
+<h4 id="data">Data</h4>
+
+<ul>
+<li><strong>Property Assessment Data:</strong> This dataset has detailed information for each property, including its address, coordinates, assessed price, and other classification features. This dataset was the focus of this project and other datasets added additional information to it.</li>
+<li><strong>Property Information Data:</strong> Contains further details for most of the properties in the first dataset, including lot sizes and the actual year of build.</li>
+<li><strong>2016 Census Population by Citizenship / Neighbourhood:</strong> Shows the population of people in each neighbourhood and the numbers of refugees and immigrants in that neighbourhood. Such data can show the difference between older neighbourhoods and the newer ones, as new areas are established to accommodate newcomers.</li>
+<li><strong>EPS Neighbourhood Criminal Incidents:</strong> This dataset was chosen to demonstrate the effect of the crimes in a neighbourhood on the prices of the properties.</li>
+</ul>
+
+<h5 id="extracted-features">Extracted Features</h5>
+
+<ul>
+<li>Latitude and Longitude</li>
+<li>Lot size</li>
+<li>Population</li>
+<li>Population ratio</li>
+<li>Crimes</li>
+<li>Street number</li>
+<li>Suites</li>
+<li>Garage</li>
+<li>Assessment class</li>
+</ul>
+
+<h4 id="main-parts">Main Parts</h4>
+
+<ul>
+<li><strong>Labeling</strong></li>
+<li><strong>Unsupervised Learning</strong></li>
+<li><strong>Supervised Learning</strong>
+
+<ul>
+<li><strong>Decision Trees</strong></li>
+<li><strong>Ensemble Bagged Trees</strong></li>
+</ul></li>
+</ul>
+
+<hr />
+
+<h5 id="labeling">Labeling</h5>
+
+<table>
+<thead>
+<tr>
+<th>Class</th>
+<th>Min</th>
+<th>Max</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>Class 1</td>
+<td>0</td>
+<td>50000</td>
+</tr>
+
+<tr>
+<td>Class 2</td>
+<td>50000</td>
+<td>100000</td>
+</tr>
+
+<tr>
+<td>Class 3</td>
+<td>100000</td>
+<td>150000</td>
+</tr>
+
+<tr>
+<td>Class 4</td>
+<td>150000</td>
+<td>200000</td>
+</tr>
+
+<tr>
+<td>Class 5</td>
+<td>200000</td>
+<td>250000</td>
+</tr>
+
+<tr>
+<td>Class 6</td>
+<td>250000</td>
+<td>300000</td>
+</tr>
+
+<tr>
+<td>Class 7</td>
+<td>300000</td>
+<td>400000</td>
+</tr>
+
+<tr>
+<td>Class 8</td>
+<td>400000</td>
+<td>500000</td>
+</tr>
+
+<tr>
+<td>Class 9</td>
+<td>500000</td>
+<td>1.5 M</td>
+</tr>
+
+<tr>
+<td>Class 10</td>
+<td>1.5 M</td>
+<td>10 M</td>
+</tr>
+
+<tr>
+<td>Class 11</td>
+<td>10 M</td>
+<td>∞</td>
+</tr>
+</tbody>
+</table>
+
+<hr />
+
+<h5 id="results">Results</h5>
+
+<p>
+<figure>
+    
+        <img src="/img/portfolio/real-estate-prediction/kmeans_scatter.jpg" alt="Kmeans scatter plot of the clusters against two features" width="60%" />
+    
+    
+    <figcaption>
+        <p>
+        Kmeans scatter plot of the clusters against two features
+        
+            
+        
+        </p> 
+    </figcaption>
+    
+</figure>
+
+
+<figure>
+    
+        <img src="/img/portfolio/real-estate-prediction/hand_picked_accuracy.png" alt="Accuracy &amp; training time" width="60%" />
+    
+    
+    <figcaption>
+        <p>
+        Accuracy &amp; training time
+        
+            
+        
+        </p> 
+    </figcaption>
+    
+</figure>
+
+
+<figure>
+    
+        <img src="/img/portfolio/real-estate-prediction/prediction_speed.png" alt="Prediction speed" width="60%" />
+    
+    
+    <figcaption>
+        <p>
+        Prediction speed
+        
+            
+        
+        </p> 
+    </figcaption>
+    
+</figure>
+</p>
+
+  </div>
+</section>
+<section id="tag-pane" class="row meta">
+  
+  <div class="col-md-12">
+    <h6 class="text-right meta">
+      
+      
+      
+      TAGS:
+      
+      
+      <a class="meta" href="/tags/classification">CLASSIFICATION</a>, 
+      
+      <a class="meta" href="/tags/clustering">CLUSTERING</a>, 
+      
+      <a class="meta" href="/tags/k-means">K-MEANS</a>, 
+      
+      <a class="meta" href="/tags/matlab">MATLAB</a>, 
+      
+      <a class="meta" href="/tags/supervised-learning">SUPERVISED LEARNING</a>, 
+      
+      <a class="meta" href="/tags/unsupervised-learning">UNSUPERVISED LEARNING</a>
+      
+      
+      
+    </h6>
+  </div>
+  
+</section>
+
+
+
+
+
+
+
+
+<section id="menu-pane" class="row menu text-center">
+  
+  
+  <span><a class="menu-item" href="https://ammarasmaro.com/portfolio/microcontrolled-takeout-robot/">&lt; prev | </a></span>
+  
+  
+  <span><a class="menu-item" href="/portfolio">portfolio</a></span>
+  
+  
+  <span><a class="menu-item" href="https://ammarasmaro.com/portfolio/smart-course-browser/"> | next &gt;</a></span>
+  
+  
+  <h4 class="text-center"><a class="menu-item" href="https://ammarasmaro.com/">home</a></h4>
+</section>
+
+
+
+<footer class="row d-block justify-content-center text-center footer">
+  <hr />
+  
+  <h6 class="text-center copyright">© 2018. Ammar Asmro. <a href="http://creativecommons.org/licenses/by/3.0/">Some Rights Reserved</a>.</h6>
+  
+  
+</footer>
+
+</div>
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
+
+

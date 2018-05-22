@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Game on Ammar Asmro</title>
+    <link>https://ammarasmaro.com/categories/game/</link>
+    <description>Recent content in Game on Ammar Asmro</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 21 May 2018 21:07:57 -0600</lastBuildDate>
+    
+	<atom:link href="https://ammarasmaro.com/categories/game/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Connect4 &amp; TOOT-OTTO games</title>
+      <link>https://ammarasmaro.com/portfolio/connect4-toot-otto/</link>
+      <pubDate>Mon, 21 May 2018 21:07:57 -0600</pubDate>
+      
+      <guid>https://ammarasmaro.com/portfolio/connect4-toot-otto/</guid>
+      <description>&lt;p&gt;MVC implementation of Connect 4 and the OTTO and TOOT using JavaFX
+&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

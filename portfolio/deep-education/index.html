@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<meta name="description" content="Simple minimalist theme">
+<meta name="keywords" content="minimalist,blog,goa,hugo,developer">
+
+<base href="https://ammarasmaro.com/">
+
+<title>Ammar Asmro</title>
+
+<meta name="generator" content="Hugo 0.38.1" />
+
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400|Roboto+Slab:400,700|Roboto:300,300i,400,400i,500,500i,700,700i">
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://ammarasmaro.com/css/main.css">
+
+
+
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+
+<link rel='icon' type='image/x-icon' href='/favicon-adn.ico' />
+
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="theme-color" content="#ffffff">
+
+</head>
+<body lang="en-us">
+<div class="container">
+
+
+<header class="row text-left title">
+  <h1 class="title">Deep Education</h1>
+</header>
+<section id="category-pane" class="row meta">
+  
+  <div class="col-md-12">
+    <h6 class="text-left meta">
+      PUBLISHED ON MAY 21, 2018
+      
+      
+      
+      —
+      
+      
+      <a class="meta" href="/categories/machine-learning">MACHINE LEARNING</a>
+      
+      
+      
+    </h6>
+  </div>
+  
+</section>
+<section id="content-pane" class="row">
+  <div class="col-md-12 text-justify content">
+    
+
+<p>The advancements in the deep learning field are happening very quickly, newer and faster models are coming out everyday. Many companies are adopting every new technology that comes out but the adoption of those new technologies can be a bit slower in the educational system. The application and benefits of applying deep learning models and techniques are explored in this project. The significance of this project is in applying new models on domain specific data using a raw text corpus. At the end of the project I deduce that using RNN on word level prediction combined with beam search is a promising field. Document similarity using paragraph vectors are also tested and found to be the right model for many applications including course recommendation.</p>
+
+<p>The main aim of this project is to produce models that can be used in a tool that will facilitate the process of course exploration by students. First two recurrent neural nets (RNN) are trained, one on the word level and the other on the character level prediction. The hyper-parameters are tweaked and fine-tuned to produce the best possible model without overfitting on the data. Test cases are defined and then applied on every model. The other part of the tool is a text similarity module. Word embeddings are used to find distances between documents, in our case, documents = courses. This aims to show that the difference in the materials of the courses will be visible in the distance between their word vectors.</p>
+
+
+<figure>
+    
+        <img src="/img/portfolio/deep-education/embedding_with_axes.png" width="60%" />
+    
+    
+</figure>
+
+
+<blockquote>
+<p>Our word embeddings</p>
+</blockquote>
+
+<h3 id="data">Data</h3>
+
+<p>The base dataset was the data obtained from the Software Development Management Specialization MOOC that the University of Alberta offers on Coursera. The transcripts of the video lectures were used. However, all the transcripts combined would only form 79 KB of text. Any RNN model used would overfit on this amount of data. So, a few books, reports, and Wikipedia articles were gathered from the web and used for training. One constrained was put in place was to only look for data in the software development field. Finding a field specific text corpus that suites the needs of this project wasn’t straight forward. Most of the documents found were in PDF format. When PDF is converted to text, many formattings are lost and cause problems for the models to process. Effort was done to make the data as clear as possible and the distracting symbols, such as dots in the table of contents, were cleaned.</p>
+
+<h2 id="main-parts">Main parts</h2>
+
+<ul>
+<li><strong>Text Generation</strong>
+
+<ul>
+<li>Character-level generation</li>
+<li>Word-level generation</li>
+</ul></li>
+<li><strong>Document Similarity</strong></li>
+</ul>
+
+<blockquote>
+<p>Losses</p>
+</blockquote>
+
+
+<figure>
+    
+        <img src="/img/portfolio/deep-education/losses.jpg" width="60%" />
+    
+    
+</figure>
+
+
+  </div>
+</section>
+<section id="tag-pane" class="row meta">
+  
+  <div class="col-md-12">
+    <h6 class="text-right meta">
+      
+      
+      
+      TAGS:
+      
+      
+      <a class="meta" href="/tags/nlp">NLP</a>, 
+      
+      <a class="meta" href="/tags/python">PYTHON</a>, 
+      
+      <a class="meta" href="/tags/rnn">RNN</a>, 
+      
+      <a class="meta" href="/tags/tensorflow">TENSORFLOW</a>
+      
+      
+      
+    </h6>
+  </div>
+  
+</section>
+
+
+
+
+
+
+
+
+<section id="menu-pane" class="row menu text-center">
+  
+  
+  <span><a class="menu-item" href="https://ammarasmaro.com/portfolio/smart-course-browser/">&lt; prev | </a></span>
+  
+  
+  <span><a class="menu-item" href="/portfolio">portfolio</a></span>
+  
+  
+  <span><a class="menu-item" href="https://ammarasmaro.com/portfolio/connect4-toot-otto/"> | next &gt;</a></span>
+  
+  
+  <h4 class="text-center"><a class="menu-item" href="https://ammarasmaro.com/">home</a></h4>
+</section>
+
+
+
+<footer class="row d-block justify-content-center text-center footer">
+  <hr />
+  
+  <h6 class="text-center copyright">© 2018. Ammar Asmro. <a href="http://creativecommons.org/licenses/by/3.0/">Some Rights Reserved</a>.</h6>
+  
+  
+</footer>
+
+</div>
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
+
+

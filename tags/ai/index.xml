@@ -6,17 +6,17 @@
     <description>Recent content in Ai on Ammar Asmro</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 05 Nov 2016 19:44:32 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 21 May 2018 21:07:57 -0600</lastBuildDate>
     
 	<atom:link href="https://ammarasmaro.com/tags/ai/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Connect4 &amp; TOOT-OTTO games</title>
-      <link>https://ammarasmaro.com/portfolio/work3/</link>
-      <pubDate>Sat, 05 Nov 2016 19:44:32 +0530</pubDate>
+      <link>https://ammarasmaro.com/portfolio/connect4-toot-otto/</link>
+      <pubDate>Mon, 21 May 2018 21:07:57 -0600</pubDate>
       
-      <guid>https://ammarasmaro.com/portfolio/work3/</guid>
+      <guid>https://ammarasmaro.com/portfolio/connect4-toot-otto/</guid>
       <description>&lt;p&gt;MVC implementation of Connect 4 and the OTTO and TOOT using JavaFX
 &lt;/p&gt;</description>
     </item>

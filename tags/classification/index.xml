@@ -6,17 +6,17 @@
     <description>Recent content in Classification on Ammar Asmro</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 05 Nov 2016 19:56:17 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 21 May 2018 20:56:47 -0600</lastBuildDate>
     
 	<atom:link href="https://ammarasmaro.com/tags/classification/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Real Estate Prediction</title>
-      <link>https://ammarasmaro.com/portfolio/work6/</link>
-      <pubDate>Sat, 05 Nov 2016 19:56:17 +0530</pubDate>
+      <link>https://ammarasmaro.com/portfolio/real-estate-prediction/</link>
+      <pubDate>Mon, 21 May 2018 20:56:47 -0600</pubDate>
       
-      <guid>https://ammarasmaro.com/portfolio/work6/</guid>
+      <guid>https://ammarasmaro.com/portfolio/real-estate-prediction/</guid>
       <description>Abstract—The real estate business is a difficult market to understand, but can return very high profits with the right techniques. People spend years in the market to gain the necessary experience to be able to evaluate a property and assess its price based on several factors, those factors have to be extracted from big datasets. This report aims to show an approach to automate that process, the algorithm should extract the important factors and apply them to new data to predict the prices of the new properties without human assistance.</description>
     </item>
     

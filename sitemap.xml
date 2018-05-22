@@ -3,38 +3,38 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://ammarasmaro.com/portfolio/work1/</loc>
-    <lastmod>2016-11-05T18:25:22+05:30</lastmod>
+    <loc>https://ammarasmaro.com/portfolio/personalized-knowledge-graphs/</loc>
+    <lastmod>2018-05-21T21:13:38-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ammarasmaro.com/portfolio/work2/</loc>
-    <lastmod>2016-11-05T19:41:01+05:30</lastmod>
+    <loc>https://ammarasmaro.com/portfolio/party-gathering/</loc>
+    <lastmod>2018-05-21T21:10:51-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ammarasmaro.com/portfolio/work3/</loc>
-    <lastmod>2016-11-05T19:44:32+05:30</lastmod>
+    <loc>https://ammarasmaro.com/portfolio/connect4-toot-otto/</loc>
+    <lastmod>2018-05-21T21:07:57-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ammarasmaro.com/portfolio/work4/</loc>
-    <lastmod>2016-11-05T19:50:47+05:30</lastmod>
+    <loc>https://ammarasmaro.com/portfolio/deep-education/</loc>
+    <lastmod>2018-05-21T21:05:25-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ammarasmaro.com/portfolio/work5/</loc>
-    <lastmod>2016-11-05T19:53:42+05:30</lastmod>
+    <loc>https://ammarasmaro.com/portfolio/smart-course-browser/</loc>
+    <lastmod>2018-05-21T21:01:27-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ammarasmaro.com/portfolio/work6/</loc>
-    <lastmod>2016-11-05T19:56:17+05:30</lastmod>
+    <loc>https://ammarasmaro.com/portfolio/real-estate-prediction/</loc>
+    <lastmod>2018-05-21T20:56:47-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ammarasmaro.com/portfolio/work7/</loc>
-    <lastmod>2016-11-05T19:57:40+05:30</lastmod>
+    <loc>https://ammarasmaro.com/portfolio/microcontrolled-takeout-robot/</loc>
+    <lastmod>2018-05-21T20:48:27-06:00</lastmod>
   </url>
   
   <url>
@@ -49,251 +49,300 @@
   
   <url>
     <loc>https://ammarasmaro.com/about/</loc>
-    <lastmod>2016-11-05T21:05:33+05:30</lastmod>
+    <lastmod>2016-10-02T22:55:05-04:00</lastmod>
   </url>
   
   <url>
     <loc>https://ammarasmaro.com/tags/8051/</loc>
-    <lastmod>2016-11-05T19:57:40+05:30</lastmod>
+    <lastmod>2018-05-21T20:48:27-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ammarasmaro.com/tags/about/</loc>
+    <lastmod>2016-10-02T22:55:05-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ammarasmaro.com/categories/about/</loc>
+    <lastmod>2016-10-02T22:55:05-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://ammarasmaro.com/tags/ai/</loc>
-    <lastmod>2016-11-05T19:44:32+05:30</lastmod>
+    <lastmod>2018-05-21T21:07:57-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://ammarasmaro.com/tags/android/</loc>
-    <lastmod>2016-11-05T19:41:01+05:30</lastmod>
+    <lastmod>2018-05-21T21:10:51-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ammarasmaro.com/categories/android/</loc>
+    <lastmod>2018-05-21T21:10:51-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://ammarasmaro.com/tags/apache-solr/</loc>
-    <lastmod>2016-11-05T19:53:42+05:30</lastmod>
+    <lastmod>2018-05-21T21:01:27-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://ammarasmaro.com/tags/c&#43;&#43;/</loc>
-    <lastmod>2016-11-05T19:57:40+05:30</lastmod>
+    <lastmod>2018-05-21T20:48:27-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://ammarasmaro.com/categories/</loc>
+    <lastmod>2016-10-02T22:55:05-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://ammarasmaro.com/tags/chatbot/</loc>
-    <lastmod>2016-11-05T18:25:22+05:30</lastmod>
+    <lastmod>2018-05-21T21:13:38-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://ammarasmaro.com/tags/classification/</loc>
-    <lastmod>2016-11-05T19:56:17+05:30</lastmod>
+    <lastmod>2018-05-21T20:56:47-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://ammarasmaro.com/tags/clustering/</loc>
-    <lastmod>2016-11-05T19:56:17+05:30</lastmod>
+    <lastmod>2018-05-21T20:56:47-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://ammarasmaro.com/tags/control/</loc>
-    <lastmod>2016-11-05T19:57:40+05:30</lastmod>
+    <lastmod>2018-05-21T20:48:27-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://ammarasmaro.com/tags/firebase/</loc>
-    <lastmod>2016-11-05T19:41:01+05:30</lastmod>
+    <lastmod>2018-05-21T21:10:51-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://ammarasmaro.com/tags/flask/</loc>
-    <lastmod>2016-11-05T19:53:42+05:30</lastmod>
+    <lastmod>2018-05-21T21:01:27-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ammarasmaro.com/categories/game/</loc>
+    <lastmod>2018-05-21T21:07:57-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://ammarasmaro.com/tags/geofencing/</loc>
-    <lastmod>2016-11-05T19:41:01+05:30</lastmod>
+    <lastmod>2018-05-21T21:10:51-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://ammarasmaro.com/tags/graph/</loc>
-    <lastmod>2016-11-05T18:25:22+05:30</lastmod>
+    <lastmod>2018-05-21T21:13:38-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ammarasmaro.com/categories/hackathon/</loc>
+    <lastmod>2018-05-21T21:10:51-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://ammarasmaro.com/tags/heatmap/</loc>
-    <lastmod>2016-11-05T19:41:01+05:30</lastmod>
+    <lastmod>2018-05-21T21:10:51-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://ammarasmaro.com/tags/ie/</loc>
-    <lastmod>2016-11-05T18:25:22+05:30</lastmod>
+    <lastmod>2018-05-21T21:13:38-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://ammarasmaro.com/tags/ir/</loc>
-    <lastmod>2016-11-05T18:25:22+05:30</lastmod>
+    <lastmod>2018-05-21T21:13:38-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://ammarasmaro.com/tags/java/</loc>
-    <lastmod>2016-11-05T18:25:22+05:30</lastmod>
+    <lastmod>2018-05-21T21:13:38-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://ammarasmaro.com/tags/javafx/</loc>
-    <lastmod>2016-11-05T19:44:32+05:30</lastmod>
+    <lastmod>2018-05-21T21:07:57-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://ammarasmaro.com/tags/k-means/</loc>
-    <lastmod>2016-11-05T19:56:17+05:30</lastmod>
+    <lastmod>2018-05-21T20:56:47-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://ammarasmaro.com/tags/location/</loc>
-    <lastmod>2016-11-05T19:41:01+05:30</lastmod>
+    <lastmod>2018-05-21T21:10:51-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ammarasmaro.com/categories/machine-learning/</loc>
+    <lastmod>2018-05-21T21:13:38-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://ammarasmaro.com/tags/matlab/</loc>
-    <lastmod>2016-11-05T19:56:17+05:30</lastmod>
+    <lastmod>2018-05-21T20:56:47-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://ammarasmaro.com/tags/microcontroller/</loc>
-    <lastmod>2016-11-05T19:57:40+05:30</lastmod>
+    <lastmod>2018-05-21T20:48:27-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://ammarasmaro.com/tags/mvc/</loc>
-    <lastmod>2016-11-05T19:44:32+05:30</lastmod>
+    <lastmod>2018-05-21T21:07:57-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://ammarasmaro.com/tags/neo4j/</loc>
-    <lastmod>2016-11-05T18:25:22+05:30</lastmod>
+    <lastmod>2018-05-21T21:13:38-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://ammarasmaro.com/tags/nlp/</loc>
-    <lastmod>2016-11-05T19:50:47+05:30</lastmod>
+    <lastmod>2018-05-21T21:05:25-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://ammarasmaro.com/tags/nlu/</loc>
-    <lastmod>2016-11-05T18:25:22+05:30</lastmod>
+    <lastmod>2018-05-21T21:13:38-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://ammarasmaro.com/portfolio/</loc>
-    <lastmod>2016-11-05T18:25:22+05:30</lastmod>
+    <lastmod>2018-05-21T21:13:38-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://ammarasmaro.com/tags/python/</loc>
-    <lastmod>2016-11-05T19:50:47+05:30</lastmod>
+    <lastmod>2018-05-21T21:05:25-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://ammarasmaro.com/tags/recommender/</loc>
-    <lastmod>2016-11-05T19:53:42+05:30</lastmod>
+    <lastmod>2018-05-21T21:01:27-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://ammarasmaro.com/tags/rnn/</loc>
-    <lastmod>2016-11-05T19:50:47+05:30</lastmod>
+    <lastmod>2018-05-21T21:05:25-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://ammarasmaro.com/tags/robot/</loc>
-    <lastmod>2016-11-05T19:57:40+05:30</lastmod>
+    <lastmod>2018-05-21T20:48:27-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ammarasmaro.com/categories/robotics/</loc>
+    <lastmod>2018-05-21T20:48:27-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ammarasmaro.com/categories/school/</loc>
+    <lastmod>2018-05-21T21:13:38-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://ammarasmaro.com/tags/sensors/</loc>
-    <lastmod>2016-11-05T19:57:40+05:30</lastmod>
+    <lastmod>2018-05-21T20:48:27-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://ammarasmaro.com/tags/supervised-learning/</loc>
-    <lastmod>2016-11-05T19:56:17+05:30</lastmod>
+    <lastmod>2018-05-21T20:56:47-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://ammarasmaro.com/tags/</loc>
-    <lastmod>2016-11-05T19:57:40+05:30</lastmod>
+    <lastmod>2018-05-21T20:48:27-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://ammarasmaro.com/tags/tensorflow/</loc>
-    <lastmod>2016-11-05T19:50:47+05:30</lastmod>
+    <lastmod>2018-05-21T21:05:25-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://ammarasmaro.com/tags/tradeoff-analytics/</loc>
-    <lastmod>2016-11-05T19:53:42+05:30</lastmod>
+    <lastmod>2018-05-21T21:01:27-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://ammarasmaro.com/tags/unsupervised-learning/</loc>
-    <lastmod>2016-11-05T19:56:17+05:30</lastmod>
+    <lastmod>2018-05-21T20:56:47-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://ammarasmaro.com/tags/watson/</loc>
-    <lastmod>2016-11-05T18:25:22+05:30</lastmod>
+    <lastmod>2018-05-21T21:13:38-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://ammarasmaro.com/tags/word-embeddings/</loc>
-    <lastmod>2016-11-05T19:53:42+05:30</lastmod>
+    <lastmod>2018-05-21T21:01:27-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://ammarasmaro.com/tags/word2vec/</loc>
-    <lastmod>2016-11-05T19:53:42+05:30</lastmod>
+    <lastmod>2018-05-21T21:01:27-06:00</lastmod>
     <priority>0</priority>
   </url>
   

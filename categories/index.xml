@@ -6,9 +6,73 @@
     <description>Recent content in Categories on Ammar Asmro</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Sun, 02 Oct 2016 22:55:05 -0400</lastBuildDate>
     
 	<atom:link href="https://ammarasmaro.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>About</title>
+      <link>https://ammarasmaro.com/categories/about/</link>
+      <pubDate>Sun, 02 Oct 2016 22:55:05 -0400</pubDate>
+      
+      <guid>https://ammarasmaro.com/categories/about/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Android</title>
+      <link>https://ammarasmaro.com/categories/android/</link>
+      <pubDate>Mon, 21 May 2018 21:10:51 -0600</pubDate>
+      
+      <guid>https://ammarasmaro.com/categories/android/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Game</title>
+      <link>https://ammarasmaro.com/categories/game/</link>
+      <pubDate>Mon, 21 May 2018 21:07:57 -0600</pubDate>
+      
+      <guid>https://ammarasmaro.com/categories/game/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hackathon</title>
+      <link>https://ammarasmaro.com/categories/hackathon/</link>
+      <pubDate>Mon, 21 May 2018 21:10:51 -0600</pubDate>
+      
+      <guid>https://ammarasmaro.com/categories/hackathon/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Machine Learning</title>
+      <link>https://ammarasmaro.com/categories/machine-learning/</link>
+      <pubDate>Mon, 21 May 2018 21:13:38 -0600</pubDate>
+      
+      <guid>https://ammarasmaro.com/categories/machine-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Robotics</title>
+      <link>https://ammarasmaro.com/categories/robotics/</link>
+      <pubDate>Mon, 21 May 2018 20:48:27 -0600</pubDate>
+      
+      <guid>https://ammarasmaro.com/categories/robotics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>School</title>
+      <link>https://ammarasmaro.com/categories/school/</link>
+      <pubDate>Mon, 21 May 2018 21:13:38 -0600</pubDate>
+      
+      <guid>https://ammarasmaro.com/categories/school/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
