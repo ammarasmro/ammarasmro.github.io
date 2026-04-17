@@ -131,28 +131,11 @@ export const projects: Project[] = [
       "The work explored word relationships, graph-based representations, and speech recognition, with the goal of making language tooling more accessible and useful."
     ],
     tags: ["Python", "Keras", "Neo4j", "JavaScript", "NLP"],
-    image: "/images/projects/personalized-knowledge-graphs/schema.png",
+    image: "/images/projects/kurdish-query.gif",
     highlights: [
       "Built a public-facing web application for demos and experiments",
       "Explored graph language modeling and word embeddings",
       "Trained speech recognition on a sizable phone-conversation dataset"
-    ]
-  },
-  {
-    slug: "progba-v2",
-    title: "Progressive Graph Builder API V2",
-    year: "Recent side project",
-    summary: "A multipurpose natural language understanding and question-answering API built for better scalability and faster end-to-end processing.",
-    description: [
-      "ProGBA V2 was designed as a flexible backend API for natural language understanding and question answering tasks.",
-      "The second version focused on scalability, moving compute-heavy components into cloud infrastructure and tightening the end-to-end processing pipeline."
-    ],
-    tags: ["Java", "Python", "Flask", "Neo4j", "Cloud"],
-    image: "/images/projects/personalized-knowledge-graphs/schema.png",
-    highlights: [
-      "Moved heavier processing into cloud VMs for better scalability",
-      "Improved end-to-end processing performance significantly",
-      "Combined multiple language and graph components behind one API"
     ]
   },
   {
@@ -170,7 +153,8 @@ export const projects: Project[] = [
     highlights: [
       "Parsed documents into concepts, keywords, and relationships",
       "Used OpenIE and coreference resolution to extract graph-ready facts",
-      "Designed around future conversational and assistant workflows"
+      "Designed around future conversational and assistant workflows",
+      "Evolved into a more scalable API-oriented architecture in later iterations"
     ]
   },
   {
