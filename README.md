@@ -19,11 +19,11 @@ Update these files most often:
 
 ## Local development
 
-This machine did not have `npm` available during setup, so local package install was not verified here.
-
-Once you have a standard Node.js install with `npm`, run:
+Astro 6 requires Node `22.12.0` or newer. This repo includes an `.nvmrc` file so you can switch versions with `nvm`.
 
 ```bash
+nvm install 22.12.0
+nvm use
 npm install
 npm run dev
 ```

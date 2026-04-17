@@ -1,6 +1,6 @@
 ---
 import MainLayout from "../layouts/MainLayout.astro";
-import { profile } from "../data/site";
+import { experience, profile, skillGroups } from "../data/site";
 ---
 
 <MainLayout
@@ -27,6 +27,38 @@ import { profile } from "../data/site";
             <li>{item}</li>
           ))}
         </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="card note">
+      <p class="eyebrow">Experience</p>
+      <h2>Recent roles and the kind of work I like to do.</h2>
+      <div class="timeline">
+        {experience.map((item) => (
+          <article class="timeline-item">
+            <p class="eyebrow">{item.period}</p>
+            <h3>{item.role}</h3>
+            <p><strong>{item.company}</strong> - {item.location}</p>
+            <p>{item.summary}</p>
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="card note">
+      <p class="eyebrow">Skills</p>
+      <h2>Tools and areas I keep coming back to.</h2>
+      <div class="skills">
+        {skillGroups.map((group) => (
+          <div class="skill-group">
+            <h3>{group.label}</h3>
+            <p>{group.items.join(" - ")}</p>
+          </div>
+        ))}
       </div>
     </div>
   </section>
@@ -85,6 +117,18 @@ import { profile } from "../data/site";
 
     .info-card li + li {
       margin-top: 0.8rem;
+    }
+
+    .timeline,
+    .skills {
+      display: grid;
+      gap: 1.1rem;
+    }
+
+    .timeline-item,
+    .skill-group {
+      padding-top: 1rem;
+      border-top: 1px solid var(--line);
     }
 
     @media (max-width: 900px) {
