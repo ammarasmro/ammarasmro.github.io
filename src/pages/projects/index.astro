@@ -1,0 +1,94 @@
+---
+import MainLayout from "../../layouts/MainLayout.astro";
+import { projects } from "../../data/site";
+---
+
+<MainLayout
+  title="Projects | Ammar Asmro"
+  description="Selected projects across machine learning, software engineering, robotics, and product exploration."
+>
+  <section class="section intro">
+    <p class="eyebrow">Projects</p>
+    <h1>Selected work across software, ML, intelligent systems, and robotics.</h1>
+    <p class="lead">
+      This page carries forward the strongest material from the old site in a
+      cleaner, easier-to-maintain format.
+    </p>
+  </section>
+
+  <section class="section listing">
+    {projects.map((project) => (
+      <article class="card project-row">
+        <a class="project-image" href={`/projects/${project.slug}/`}>
+          <img src={project.image} alt={project.title} />
+        </a>
+        <div class="project-copy">
+          <p class="eyebrow">{project.year}</p>
+          <h2>
+            <a href={`/projects/${project.slug}/`}>{project.title}</a>
+          </h2>
+          <p class="lead">{project.summary}</p>
+          <div class="chip-list">
+            {project.tags.map((tag) => (
+              <span class="chip">{tag}</span>
+            ))}
+          </div>
+          <div class="button-row">
+            <a class="button primary" href={`/projects/${project.slug}/`}>Read project</a>
+            {project.externalUrl && (
+              <a class="button secondary" href={project.externalUrl} target="_blank" rel="noreferrer">
+                View source
+              </a>
+            )}
+          </div>
+        </div>
+      </article>
+    ))}
+  </section>
+
+  <style>
+    .intro {
+      display: grid;
+      gap: 1rem;
+      max-width: 70ch;
+    }
+
+    .listing {
+      display: grid;
+      gap: 1.25rem;
+    }
+
+    .project-row {
+      display: grid;
+      grid-template-columns: minmax(260px, 0.9fr) minmax(0, 1.2fr);
+      gap: 1.25rem;
+      overflow: hidden;
+      padding: 0.85rem;
+    }
+
+    .project-image img {
+      width: 100%;
+      height: 100%;
+      min-height: 260px;
+      object-fit: cover;
+      border-radius: 18px;
+    }
+
+    .project-copy {
+      display: grid;
+      gap: 1rem;
+      padding: 0.6rem 0.35rem 0.6rem 0;
+      align-content: center;
+    }
+
+    @media (max-width: 900px) {
+      .project-row {
+        grid-template-columns: 1fr;
+      }
+
+      .project-copy {
+        padding: 0.2rem 0.35rem 0.6rem;
+      }
+    }
+  </style>
+</MainLayout>

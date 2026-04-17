@@ -1,0 +1,96 @@
+---
+import MainLayout from "../layouts/MainLayout.astro";
+import { profile } from "../data/site";
+---
+
+<MainLayout
+  title="About | Ammar Asmro"
+  description="Learn more about Ammar Asmro, his background, and the kind of work he enjoys."
+>
+  <section class="section about-grid">
+    <div class="card about-copy">
+      <p class="eyebrow">About</p>
+      <h1>A background shaped by engineering, research, and curiosity.</h1>
+      {profile.about.map((paragraph) => (
+        <p class="lead">{paragraph}</p>
+      ))}
+    </div>
+
+    <div class="about-side">
+      <div class="card photo-card">
+        <img src="/images/about.jpg" alt="Ammar Asmro outdoors" />
+      </div>
+      <div class="card info-card">
+        <p class="eyebrow">Education</p>
+        <ul>
+          {profile.education.map((item) => (
+            <li>{item}</li>
+          ))}
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="card note">
+      <p class="eyebrow">What I enjoy</p>
+      <h2>Work that blends technical depth with real usefulness.</h2>
+      <p class="lead">
+        I'm especially drawn to teams and projects where I can keep learning,
+        solve varied problems, and turn complex systems into something clear and
+        valuable for other people.
+      </p>
+    </div>
+  </section>
+
+  <style>
+    .about-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1.3fr) minmax(280px, 0.9fr);
+      gap: 1.25rem;
+    }
+
+    .about-copy,
+    .info-card,
+    .note {
+      padding: 1.5rem;
+      display: grid;
+      gap: 1rem;
+    }
+
+    .about-side {
+      display: grid;
+      gap: 1.25rem;
+    }
+
+    .photo-card {
+      overflow: hidden;
+      padding: 0.8rem;
+      transform: rotate(-1.2deg);
+    }
+
+    .photo-card img {
+      width: 100%;
+      height: 100%;
+      min-height: 320px;
+      object-fit: cover;
+      border-radius: 22px;
+    }
+
+    .info-card ul {
+      margin: 0;
+      padding-left: 1.2rem;
+      color: var(--muted);
+    }
+
+    .info-card li + li {
+      margin-top: 0.8rem;
+    }
+
+    @media (max-width: 900px) {
+      .about-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</MainLayout>

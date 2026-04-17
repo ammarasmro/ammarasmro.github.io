@@ -1,0 +1,29 @@
+---
+import MainLayout from "../layouts/MainLayout.astro";
+---
+
+<MainLayout title="Page Not Found | Ammar Asmro">
+  <section class="section">
+    <div class="card not-found">
+      <p class="eyebrow">404</p>
+      <h1>That page wandered off.</h1>
+      <p class="lead">
+        The new site has a much simpler structure, so the page you wanted may
+        have moved.
+      </p>
+      <div class="button-row">
+        <a class="button primary" href="/">Go home</a>
+        <a class="button secondary" href="/projects/">Browse projects</a>
+      </div>
+    </div>
+  </section>
+
+  <style>
+    .not-found {
+      padding: 2rem;
+      display: grid;
+      gap: 1rem;
+      justify-items: start;
+    }
+  </style>
+</MainLayout>

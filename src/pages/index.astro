@@ -1,0 +1,290 @@
+---
+import MainLayout from "../layouts/MainLayout.astro";
+import { profile, projects } from "../data/site";
+
+const featuredProjects = projects.slice(0, 4);
+---
+
+<MainLayout
+  title="Ammar Asmro | Software Engineer"
+  description="Software engineer building thoughtful products across software, ML, and intelligent systems."
+>
+  <section class="section">
+    <div class="card hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Software Engineer</p>
+        <h1>Modern software, thoughtful systems, curious engineering.</h1>
+        <p class="lead">{profile.shortBio}</p>
+        <p class="lead">{profile.intro}</p>
+        <div class="button-row">
+          <a class="button primary" href="/projects/">View projects</a>
+          <a class="button secondary" href="/resume/Ammar-Asmro.pdf">Open resume</a>
+          <a class="button secondary" href={`mailto:${profile.email}`}>Contact me</a>
+        </div>
+      </div>
+      <div class="hero-portrait">
+        <div class="portrait-frame">
+          <img src="/images/headshot.jpg" alt="Portrait of Ammar Asmro" />
+        </div>
+        <div class="hero-note">
+          <span>Based in {profile.location}</span>
+          <span>Interested in software, ML, and product-minded engineering</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section grid-two">
+    <div class="card panel">
+      <p class="eyebrow">What I focus on</p>
+      <h2>Building useful things with technical depth.</h2>
+      <p class="lead">
+        I like work that starts with a messy problem and ends with a clear,
+        reliable experience for real people.
+      </p>
+      <div class="chip-list">
+        {profile.strengths.map((strength) => (
+          <span class="chip">{strength}</span>
+        ))}
+      </div>
+    </div>
+
+    <div class="card panel stats">
+      <div>
+        <p class="eyebrow">Quick Snapshot</p>
+        <h2>{projects.length} highlighted projects</h2>
+      </div>
+      <div class="stat-list">
+        <div>
+          <strong>Background</strong>
+          <p>Software engineering, intelligent systems, ML, robotics.</p>
+        </div>
+        <div>
+          <strong>Preferred work</strong>
+          <p>Ambiguous product problems with room for strong engineering.</p>
+        </div>
+        <div>
+          <strong>Maintained with ease</strong>
+          <p>One content file, static deploy, no Hugo complexity.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-heading">
+      <div>
+        <p class="eyebrow">Featured Projects</p>
+        <h2>Selected work from the earlier site, cleaned up for a new home.</h2>
+      </div>
+      <a class="button secondary" href="/projects/">See all projects</a>
+    </div>
+
+    <div class="project-grid">
+      {featuredProjects.map((project) => (
+        <a class="card project-card" href={`/projects/${project.slug}/`}>
+          <div class="project-image">
+            <img src={project.image} alt={project.title} />
+          </div>
+          <div class="project-content">
+            <p class="project-meta">{project.year}</p>
+            <h3>{project.title}</h3>
+            <p>{project.summary}</p>
+            <div class="chip-list">
+              {project.tags.slice(0, 3).map((tag) => (
+                <span class="chip">{tag}</span>
+              ))}
+            </div>
+          </div>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <section class="section grid-two">
+    <div class="card panel">
+      <p class="eyebrow">About</p>
+      <h2>Engineering shaped by curiosity and practical outcomes.</h2>
+      <p class="lead">{profile.about[0]}</p>
+      <a class="button secondary" href="/about/">Read more</a>
+    </div>
+
+    <div class="card panel">
+      <p class="eyebrow">Links</p>
+      <h2>Places to find me.</h2>
+      <div class="link-list">
+        {profile.socialLinks.map((link) => (
+          <a href={link.href} target={link.href.startsWith("http") ? "_blank" : undefined} rel="noreferrer">
+            <span>{link.label}</span>
+            <span>-&gt;</span>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <style>
+    .hero {
+      display: grid;
+      grid-template-columns: minmax(0, 1.5fr) minmax(280px, 0.9fr);
+      gap: 2rem;
+      padding: clamp(1.4rem, 3vw, 2rem);
+      overflow: hidden;
+      position: relative;
+      background:
+        radial-gradient(circle at top right, rgba(208, 108, 63, 0.18), transparent 30%),
+        linear-gradient(180deg, rgba(255, 252, 247, 0.92), rgba(255, 248, 238, 0.88));
+    }
+
+    .hero::after {
+      content: "";
+      position: absolute;
+      inset: auto -8% -25% auto;
+      width: 280px;
+      height: 280px;
+      border-radius: 50%;
+      background: rgba(18, 107, 82, 0.08);
+      filter: blur(10px);
+    }
+
+    .hero-copy,
+    .hero-portrait {
+      position: relative;
+      z-index: 1;
+    }
+
+    .hero-copy {
+      display: grid;
+      gap: 1rem;
+      align-content: start;
+    }
+
+    .hero-portrait {
+      display: grid;
+      gap: 1rem;
+      align-content: start;
+    }
+
+    .portrait-frame {
+      padding: 0.9rem;
+      border-radius: 28px;
+      background: rgba(255, 255, 255, 0.62);
+      border: 1px solid rgba(31, 36, 48, 0.08);
+      transform: rotate(2deg);
+    }
+
+    .portrait-frame img {
+      width: 100%;
+      aspect-ratio: 4 / 5;
+      object-fit: cover;
+      border-radius: 22px;
+    }
+
+    .hero-note {
+      display: grid;
+      gap: 0.6rem;
+      padding: 1rem 1.1rem;
+      border-radius: 20px;
+      background: rgba(18, 107, 82, 0.08);
+      color: var(--accent);
+      font-weight: 600;
+    }
+
+    .grid-two {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 1.25rem;
+    }
+
+    .panel {
+      padding: 1.5rem;
+      display: grid;
+      gap: 1rem;
+    }
+
+    .stats .stat-list {
+      display: grid;
+      gap: 1rem;
+    }
+
+    .stats strong {
+      display: block;
+      margin-bottom: 0.3rem;
+      font-family: "Space Grotesk", sans-serif;
+    }
+
+    .section-heading {
+      display: flex;
+      align-items: end;
+      justify-content: space-between;
+      gap: 1rem;
+      margin-bottom: 1rem;
+    }
+
+    .project-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 1.25rem;
+    }
+
+    .project-card {
+      overflow: hidden;
+      transition: transform 180ms ease, box-shadow 180ms ease;
+    }
+
+    .project-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 28px 70px rgba(48, 36, 17, 0.16);
+    }
+
+    .project-image img {
+      width: 100%;
+      height: 260px;
+      object-fit: cover;
+    }
+
+    .project-content {
+      display: grid;
+      gap: 0.9rem;
+      padding: 1.2rem;
+    }
+
+    .project-meta {
+      color: var(--accent);
+      font-weight: 700;
+      font-size: 0.86rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .link-list {
+      display: grid;
+      gap: 0.8rem;
+    }
+
+    .link-list a {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      padding: 1rem 1.1rem;
+      border-radius: 18px;
+      background: rgba(255, 255, 255, 0.56);
+      border: 1px solid rgba(31, 36, 48, 0.08);
+      font-weight: 600;
+    }
+
+    @media (max-width: 900px) {
+      .hero,
+      .grid-two,
+      .project-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .section-heading {
+        align-items: start;
+        flex-direction: column;
+      }
+    }
+  </style>
+</MainLayout>

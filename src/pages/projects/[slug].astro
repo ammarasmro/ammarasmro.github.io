@@ -1,0 +1,119 @@
+---
+import MainLayout from "../../layouts/MainLayout.astro";
+import { projects } from "../../data/site";
+
+export function getStaticPaths() {
+  return projects.map((project) => ({
+    params: { slug: project.slug },
+    props: { project }
+  }));
+}
+
+const { project } = Astro.props;
+---
+
+<MainLayout title={`${project.title} | Ammar Asmro`} description={project.summary}>
+  <section class="section">
+    <div class="card hero">
+      <div class="hero-copy">
+        <p class="eyebrow">{project.year}</p>
+        <h1>{project.title}</h1>
+        <p class="lead">{project.summary}</p>
+        <div class="chip-list">
+          {project.tags.map((tag) => (
+            <span class="chip">{tag}</span>
+          ))}
+        </div>
+        <div class="button-row">
+          <a class="button secondary" href="/projects/">Back to projects</a>
+          {project.externalUrl && (
+            <a class="button primary" href={project.externalUrl} target="_blank" rel="noreferrer">
+              View source
+            </a>
+          )}
+        </div>
+      </div>
+      <div class="hero-image">
+        <img src={project.image} alt={project.title} />
+      </div>
+    </div>
+  </section>
+
+  <section class="section body-grid">
+    <div class="card narrative">
+      <p class="eyebrow">Overview</p>
+      {project.description.map((paragraph) => (
+        <p class="lead">{paragraph}</p>
+      ))}
+    </div>
+
+    {project.highlights && (
+      <aside class="card highlights">
+        <p class="eyebrow">Highlights</p>
+        <ul>
+          {project.highlights.map((item) => (
+            <li>{item}</li>
+          ))}
+        </ul>
+      </aside>
+    )}
+  </section>
+
+  <style>
+    .hero {
+      display: grid;
+      grid-template-columns: minmax(0, 1.1fr) minmax(320px, 0.9fr);
+      gap: 1.25rem;
+      padding: 1rem;
+      overflow: hidden;
+    }
+
+    .hero-copy,
+    .narrative,
+    .highlights {
+      display: grid;
+      gap: 1rem;
+    }
+
+    .hero-copy {
+      padding: 0.8rem;
+      align-content: center;
+    }
+
+    .hero-image img {
+      width: 100%;
+      height: 100%;
+      min-height: 320px;
+      object-fit: cover;
+      border-radius: 22px;
+    }
+
+    .body-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1.2fr) minmax(260px, 0.75fr);
+      gap: 1.25rem;
+    }
+
+    .narrative,
+    .highlights {
+      padding: 1.5rem;
+    }
+
+    .highlights ul {
+      margin: 0;
+      padding-left: 1.1rem;
+      color: var(--muted);
+    }
+
+    .highlights li + li {
+      margin-top: 0.7rem;
+    }
+
+    @media (max-width: 900px) {
+      .hero,
+      .body-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</MainLayout>
